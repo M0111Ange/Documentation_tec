@@ -1,2 +1,2 @@
 # Documentation_tec
-This is the project that includes the JS Documentation
+This is the project that includes the JS Documentation Project
