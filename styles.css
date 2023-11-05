@@ -5,12 +5,6 @@
 }
 
 
-@media only screen and (max-width: 400px) {
-  body {
-    font-size: 30px;
-  }
-}
-
 .content {
   display: flex;
   width: 100%;
@@ -80,4 +74,32 @@ code {
 
 #heading {
   padding: 20px;
+}
+@media (min-width:801px) and (max-width:1010px){
+  #navbar{
+    width: 27%;
+    overflow: scroll;
+    height: 100vh;
+  }
+  #main-doc{
+    margin-left:20em;
+  }
+}
+
+ 
+
+@media (width<800px) {
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+  }
+  #main-doc{
+    margin: 300px 13px 0px 17px;
+  }
 }
